@@ -128,8 +128,19 @@ export function MarketingLandingPage() {
                   </div>
                 </div>
 
-                <div className="h-44 bg-gradient-to-r from-indigo-50 to-blue-50 rounded-lg flex items-center justify-center text-indigo-600">
-                  <img src="/assets/hero-dashboard.png" alt="Platform dashboard preview" className="max-h-36" />
+                <div className="h-44 bg-gradient-to-r from-indigo-50 to-blue-50 rounded-lg flex items-center justify-center text-indigo-600 overflow-hidden">
+                  <video
+                    className="max-h-36 w-auto object-contain"
+                    autoPlay
+                    loop
+                    muted
+                    playsInline
+                    poster="/assets/logo.jpg"
+                  >
+                    <source src="/assets/vid.mp4" type="video/mp4" />
+                    {/* Fallback to image if video not supported */}
+                    <img src="/assets/logo.jpg" alt="Platform dashboard preview" className="max-h-36" />
+                  </video>
                 </div>
 
                 <div className="mt-4 text-sm text-slate-600">Connect your profile, set keywords, and get matched automatically — no manual search required.</div>
