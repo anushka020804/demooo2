@@ -158,17 +158,17 @@ export default function MetalCapitalLanding() {
       <section className="py-14 bg-white">
         <div className="max-w-5xl mx-auto px-6 text-center">
           <p className="text-base font-semibold text-slate-400 mb-10 tracking-widest uppercase">Empowered by Global Standards</p>
-          <div className="flex flex-col md:flex-row items-center justify-center gap-12 md:gap-24">
-            <div className="flex flex-col items-center">
-              <img src="/partners/kotak.png" alt="Kotak" className="h-14 mb-2 transition duration-300" />
+          <div className="flex flex-col md:flex-row items-center justify-center gap-y-8 md:gap-x-12">
+            <div className="flex-1 flex flex-col items-center">
+              <img src="/partners/kotak.png" alt="Kotak" className="h-14 mb-2 transition duration-300 object-contain" />
               <span className="text-xs text-slate-400 tracking-widest mt-1">STRATEGIC LENDER</span>
             </div>
-            <div className="flex flex-col items-center">
-              <img src="/partners/efl.png" alt="EFL" className="h-14 mb-2 transition duration-300" />
+            <div className="flex-1 flex flex-col items-center">
+              <img src="/partners/efl.png" alt="EFL" className="h-14 mb-2 transition duration-300 object-contain" />
               <span className="text-xs text-slate-400 tracking-widest mt-1">ECOSYSTEM PARTNER</span>
             </div>
-            <div className="flex flex-col items-center">
-              <img src="/partners/iima.png" alt="IIMA Ventures" className="h-14 mb-2 transition duration-300" />
+            <div className="flex-1 flex flex-col items-center">
+              <img src="/partners/iima.png" alt="IIMA Ventures" className="h-14 mb-2 transition duration-300 object-contain" />
               <span className="text-xs text-slate-400 tracking-widest mt-1">INCUBATED AT</span>
             </div>
           </div>
