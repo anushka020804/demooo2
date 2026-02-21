@@ -117,15 +117,8 @@ export function MarketingLandingPage() {
             {/* Right: Visual/Stats card */}
             <div className="relative">
               <div className="bg-gradient-to-br from-white to-slate-50 rounded-2xl p-6 shadow-2xl border border-slate-100">
-                <div className="flex items-center justify-between mb-4">
-                  <div>
-                    <div className="text-xs text-slate-400">Monthly Matches</div>
-                    <div className="text-2xl font-bold text-slate-900">1,280+</div>
-                  </div>
-                  <div className="text-right">
-                    <div className="text-xs text-slate-400">Avg. Win Rate</div>
-                    <div className="text-2xl font-bold text-indigo-600">72%</div>
-                  </div>
+                <div className="flex items-center justify-center mb-4">
+                  <div className="text-base text-indigo-600 font-semibold">product preview</div>
                 </div>
 
                 <div className="h-56 md:h-64 bg-gradient-to-r from-indigo-50 to-blue-50 rounded-lg flex items-center justify-center text-indigo-600 overflow-hidden">
