@@ -118,7 +118,7 @@ export function MarketingLandingPage() {
             <div className="relative">
               <div className="bg-gradient-to-br from-white to-slate-50 rounded-2xl p-6 shadow-2xl border border-slate-100">
                 <div className="flex items-center justify-center mb-4">
-                  <div className="text-base text-indigo-600 font-semibold">product preview</div>
+                      <div className="text-base text-indigo-600">Product Preview</div>
                 </div>
 
                 <div className="h-56 md:h-64 bg-gradient-to-r from-indigo-50 to-blue-50 rounded-lg flex items-center justify-center text-indigo-600 overflow-hidden">
